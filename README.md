@@ -24,8 +24,8 @@ return order - order -> many to one
 
 Business requirements:
 - create accounts ( constraint: the age to be at least 14 years old )
-- place orders ( for pick-up in store )
-- return orders completely
+- place orders ( for pick-up in store; decrease the account balance and the storage )
+- return orders completely ( refund the money to the customer and update the storage with the returned quantites )
 - delete products from storage ( constrains: the product quantity to be zero )
 - add new products in storage 
 - apply discount ( constraint: the total amount of the order to be greater than 200 )

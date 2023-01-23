@@ -15,12 +15,12 @@ Entities:
 - return order
 
 Entities relationships:
-account - order -> one to many 
-product - order -> many to many 
-shop - order -> one to many 
-shop - storage -> one to one 
-storage - product -> many to many 
-return order - order -> many to one
+- account - order -> one to many 
+- product - order -> many to many 
+- shop - order -> one to many 
+- shop - storage -> one to one 
+- storage - product -> many to many 
+- return order - order -> many to one
 
 Business requirements:
 - create accounts ( constraint: the age to be at least 14 years old )
